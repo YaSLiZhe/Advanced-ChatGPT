@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 
 dotenv.config();
 const API_KEY = process.env.API_KEY;
-
+console.log(API_KEY);
 const app = express();
 
 app.use(express.json);
@@ -31,6 +31,7 @@ app.post('/completions', async (req, res) => {
     );
     const data = await response.json();
     res.send(data);
+    console.log(data);
   } catch (error) {
     console.error(error);
   }
