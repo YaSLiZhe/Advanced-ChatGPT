@@ -1,6 +1,7 @@
 # Chatbot Application
 
 This is a chatbot application built using React, Node.js, and the ChatGPT API.
+![界面](ScreenShot.png)
 
 ## Description
 
@@ -24,7 +25,7 @@ The chatbot application allows users to interact with a chatbot powered by the C
 4. Start the server and frontend:
    - Start the backend server: `npm run start:backend`
    - Start the frontend: `npm run start:frontend`
-5. Access the application in your web browser at `http://localhost:8000`
+5. Access the application in your web browser at `http://localhost:3000`
 
 Note: You need to obtain an API key from the ChatGPT API and replace `<your-api-key>` with your actual API key.
 
